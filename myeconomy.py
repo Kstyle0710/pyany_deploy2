@@ -48,7 +48,7 @@ time.sleep(1)
 
 ## DASH APP LAYOUT
 app = dash.Dash(__name__)
-server = app.server
+# server = app.server
 
 app.layout = html.Div([
     ## Lottie
